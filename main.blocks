@@ -1,0 +1,18 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="B|TGtq-KzI5vT1Myiq/O">mySprite</variable><variable type="KIND_SpriteKind" id="FNWf?-lDc|$JSeVmn:Gk">Player</variable><variable type="KIND_SpriteKind" id="k(X}onr0RJY~}{FcI{:`">Projectile</variable><variable type="KIND_SpriteKind" id="ErNMDZ`y6XGOGB!++uP3">Food</variable><variable type="KIND_SpriteKind" id="IVGu|f1q#xUfh*J[KcWX">Enemy</variable></variables><block type="pxt-on-start" id="S8!fZPZ^MNcrL|27bDG#" x="0" y="0"><statement name="HANDLER"><block type="music_playable_play" id="`-RD:`@y*%hGfx=~Ny^*"><field name="playbackMode">music.PlaybackMode.UntilDone</field><value name="toPlay"><shadow type="music_song_field_editor" id="mC$[QG.Vky=G=jK5iM~T"><field name="song">assets.song`overworld music`</field><data>{"commentRefs":[],"fieldData":{"song":"mySongs.song1"}}</data></shadow></value><next><block type="variables_set" id="3eTE?p9D7H:2E2^X-*-C"><field name="VAR" id="B|TGtq-KzI5vT1Myiq/O">mySprite</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="pA02%{j5qvDH-8,${9j`"><value name="img"><shadow type="screen_image_picker" id="bjg_5-wfqfN}NtRiKsNI"><field name="img">img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":"bjg_5-wfqfN}NtRiKsNI"}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="`{v2E8uW2`[f[rr|~Q=*"><field name="MEMBER">Player</field></shadow></value></block></value></block></next></block></statement></block></xml>
